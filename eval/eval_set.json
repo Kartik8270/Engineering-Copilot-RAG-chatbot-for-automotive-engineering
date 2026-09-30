@@ -1,0 +1,16 @@
+[
+  {"question": "Our motor assembly has excessive vibration. Have we seen similar issues in previous projects?",
+   "expected_docs": ["M-104", "M-087", "M-121"], "keywords": ["bearing", "rotor", "bracket"], "answerable": true},
+  {"question": "What caused the vibration in project M-087?",
+   "expected_docs": ["M-087"], "keywords": ["rotor", "imbalance"], "answerable": true},
+  {"question": "What happened to vibration after the mounting bracket was lightened?",
+   "expected_docs": ["M-121"], "keywords": ["bracket", "increase"], "answerable": true},
+  {"question": "What torque should the bearing housing bolts be tightened to?",
+   "expected_docs": ["MAN-200"], "keywords": ["45"], "answerable": true},
+  {"question": "How was the M-104 bearing misalignment fixed?",
+   "expected_docs": ["M-104"], "keywords": ["re-machined", "realign"], "answerable": true},
+  {"question": "What is the battery pack warranty period?",
+   "expected_docs": [], "keywords": [], "answerable": false},
+  {"question": "Which coolant does the HVAC compressor use?",
+   "expected_docs": [], "keywords": [], "answerable": false}
+]
